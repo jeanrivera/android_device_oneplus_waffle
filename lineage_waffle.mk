@@ -29,3 +29,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=CPH2573 \
     SystemDevice=OP595DL1 \
     SystemName=CPH2573
+$(call inherit-product-if-exists, device/oneplus/waffle/rr_maintainer.mk)
